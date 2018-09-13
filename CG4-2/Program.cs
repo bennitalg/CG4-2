@@ -6,7 +6,15 @@ namespace CG4_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //declare, assign and initialize the array of numbers
+            int[] numbers = new int[6]{ 1, 1, 2, 3, 5, 8 };
+            //display the values with a foreach loop
+            foreach (int number in numbers)
+            {
+                Console.WriteLine(number);
+            }
+            Console.ReadLine();
+
         }
     }
 }
